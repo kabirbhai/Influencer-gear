@@ -54,3 +54,41 @@ header {
   align-items: center;
   gap: 34px;
 }
+
+/* Main section styles  */
+main {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+/* Hero section styles  */
+.hero-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.hero-content .hero-title {
+  font-size: 52px;
+  font-weight: 700;
+}
+.hero-content .hero-sub-title {
+  font-weight: 600;
+  padding: 16px 0;
+}
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  border: none;
+  border-radius: 41px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-primary span {
+  margin-left: 8px;
+}
