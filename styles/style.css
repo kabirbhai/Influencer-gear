@@ -1,10 +1,52 @@
 /* Fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+/* css reset  */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* body style  */
+body {
   font-family: "Poppins", sans-serif;
   font-family: "Inter", sans-serif;
+}
+
+/* Header Styles   */
+.navbar {
+  max-width: 1290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #3a3a3a;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item ul {
+  display: flex;
+}
+.nav-item ul li {
+  list-style: none;
+}
+.nav-item ul li a {
+  text-decoration: none;
+  margin-right: 34px;
+  font-weight: 600;
+}
+.nav-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
 }
