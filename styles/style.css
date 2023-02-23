@@ -16,6 +16,10 @@ body {
 }
 
 /* Header Styles   */
+header {
+  background-color: rgb(226, 226, 226);
+  padding: 20px 0;
+}
 .navbar {
   max-width: 1290px;
   display: flex;
