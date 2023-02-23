@@ -92,3 +92,14 @@ main {
 .btn-primary span {
   margin-left: 8px;
 }
+
+/* company logos styles */
+.company-logo {
+  display: flex;
+  align-items: center;
+  margin: 100px 0;
+  padding: 35px 60px;
+  justify-content: space-between;
+  border-top: 2px solid rgba(216, 216, 216, 0.15);
+  border-bottom: 2px solid rgb(216, 216, 216, 0.15);
+}
