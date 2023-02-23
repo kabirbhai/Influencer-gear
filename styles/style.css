@@ -104,6 +104,16 @@ main {
 }
 
 /* Popular collection styles */
+.popular-collection-container > p {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  text-align: end;
+  color: #e02c6d;
+  margin-top: 50px;
+}
 .popular-collection-title {
   text-align: center;
   margin-bottom: 30px;
