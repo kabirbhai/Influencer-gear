@@ -159,3 +159,29 @@ main {
   font-weight: 700;
   color: #787885;
 }
+
+/* Feature Products styles  */
+.feature-product-container {
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+}
+.feature-product-container img {
+  /* width: 100%; */
+}
+.feature-content {
+  margin-left: 96px;
+  padding: 50px 0;
+}
+.feature-content h1 {
+  font-weight: 700;
+  font-size: 38px;
+}
+.feature-content p {
+  margin: 16px 0;
+  font-weight: 700;
+  color: #6c6c6c;
+}
+.btn-feature {
+  border-radius: 0;
+}
