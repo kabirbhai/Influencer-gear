@@ -1,7 +1,7 @@
 /* Fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
 /* css reset  */
 * {
   margin: 0;
@@ -16,7 +16,7 @@ body {
 
 /* Header Styles   */
 header {
-  background-color: rgb(226, 226, 226);
+  /* background-color: rgb(226, 226, 226); */
   padding: 20px 0;
 }
 .navbar {
@@ -46,6 +46,7 @@ header {
   text-decoration: none;
   margin-right: 34px;
   font-weight: 600;
+  color: #3a3a3a;
 }
 .nav-icon {
   display: flex;
@@ -166,9 +167,7 @@ main {
   display: flex;
   align-items: center;
 }
-.feature-product-container img {
-  /* width: 100%; */
-}
+
 .feature-content {
   margin-left: 96px;
   padding: 50px 0;
@@ -184,4 +183,40 @@ main {
 }
 .btn-feature {
   border-radius: 0;
+}
+
+/* Footer styles  */
+footer {
+  background-color: #0a0826;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.copyright {
+  text-align: center;
+}
+
+.copyright > h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+.copyright p {
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+}
+.copyright-symbol {
+  margin: 3px 0;
+}
+
+.social-icons {
+  margin-top: 17px;
+}
+.social-icons {
+  font-size: 32px;
+  color: #ffffff;
+  display: flex;
+  gap: 16px;
 }
