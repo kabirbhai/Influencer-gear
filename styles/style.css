@@ -111,9 +111,12 @@ main {
   font-size: 28px;
   color: #3a3a3a;
 }
+.popular-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
 .collection {
-  width: 329px;
-  height: 476px;
   padding: 17px 15px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
